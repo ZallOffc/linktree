@@ -3216,13 +3216,6 @@
         // Initial render of links and social
         renderLinks();
         initializeSocialLinks();
-        
-    <script>
-const isAdmin = new URLSearchParams(window.location.search).get("edit");
-
-document.querySelectorAll('[contenteditable]').forEach(el => {
-  el.contentEditable = isAdmin === "true";
-});
     </script>
 </body>
 </html>
